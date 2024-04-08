@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <title>Stuy Game 2024</title>
+</head>
+
+<body>
+
+    <center>
+        <h1 id="title">Stuy Game 2024</h1>
+        <h2 id="signin_text">Sign In</h2>
+        
+        <div id="g_id_onload"
+            data-client_id="388312483979-0f6hup9b4bn8pg1hc98rum4dcsov3qh2.apps.googleusercontent.com"
+            data-context="signin"
+            data-ux_mode="popup"
+            data-callback="onSignIn"
+            data-auto_prompt="false"
+            
+            >
+        </div>
+        <p id="signInSuccess" class="signInHide">Successfully signed in!</p>
+        <div class="g_id_signin" id ="googleButton"
+            data-type="icon"
+            data-shape="circle"
+            data-theme="outline"
+            data-text="signin_with"
+            data-size="large">
+        </div>
+        <p id="target"></p>
+
+    </center>
+    
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "assassin",
+  "version": "1.0.0",
+  "description": "Stuy Assassin 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePotatoPowers/stuyassassin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThePotatoPowers/stuyassassin/issues"
+  },
+  "homepage": "https://github.com/ThePotatoPowers/stuyassassin#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "csv-parse": "^5.5.5",
+    "express": "^4.19.2",
+    "fs": "0.0.1-security",
+    "google-auth-library": "^9.7.0",
+    "node-xlsx": "^0.23.0",
+    "vercel": "^33.7.0"
+  }
+}
