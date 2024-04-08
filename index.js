@@ -70,7 +70,10 @@ app.post("/target", async (req, res) => {
     const email = req.body.email;
     console.log(email);
     // go through the csv file to find whoever email's target is
-    const data = fs.readFileSync("pairs.csv");
+    // get csv file from public
+    const data = fs.readFileSync(__dirname + '/public/pairs.csv');
+
+
     const target_file = xlsx.parse(data);
     //console.log(target_file);
 
