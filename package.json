@@ -4,12 +4,15 @@
   "description": "Stuy Assassin 2024",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ThePotatoPowers/stuyassassin.git"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
   },
   "author": "",
   "license": "ISC",
