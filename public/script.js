@@ -21,8 +21,8 @@ function onSignIn(googleUser) {
     //console.log("success", data);
     const allInfo = data.allInfo;
     
-    // check if email ends in stuy.edu
-    if (allInfo.email.endsWith("stuy.edu") || allInfo.email===("zkarim7676@gmail.com")) {
+    // check if email ends in stuy.edu and contains the number 4
+    if ((allInfo.email.endsWith("stuy.edu") && allInfo.email.includes("4") ) || allInfo.email===("zkarim7676@gmail.com") ) {
         window.username = allInfo.name;
         window.email = allInfo.email;
         document.getElementById("googleButton").className = "googleHide";
