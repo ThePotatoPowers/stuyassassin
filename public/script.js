@@ -47,7 +47,11 @@ function onSignIn(googleUser) {
         const targets = data.targets;
         const target = targets.target;
         
-        if (length(target) < 1) {
+
+        // length of target
+        
+
+        if (target.length <= 1) {
             document.getElementById("target").innerHTML = "You are eliminated or not playing";
         }
         else {
