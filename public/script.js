@@ -47,7 +47,12 @@ function onSignIn(googleUser) {
         const targets = data.targets;
         const target = targets.target;
         
-        document.getElementById("target").innerHTML = "Your initial target is " + target;
+        if (length(target) < 1) {
+            document.getElementById("target").innerHTML = "You are eliminated or not playing";
+        }
+        else {
+            document.getElementById("target").innerHTML = "Your initial target is " + target;
+        }
 
         document.getElementById("leaderboard").className = "leaderboardShow";
 
