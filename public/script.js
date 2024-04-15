@@ -48,6 +48,10 @@ function onSignIn(googleUser) {
         const target = targets.target;
         
         document.getElementById("target").innerHTML = "Your initial target is " + target;
+
+        document.getElementById("leaderboard").className = "leaderboardShow";
+
+
         })
 
 

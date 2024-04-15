@@ -46,3 +46,20 @@ h1, h2 {
 .hide_signin {
     display: none;
 }
+
+.leaderboardHide {
+    display: none;
+}
+
+.leaderboardShow {
+    display: table;
+    color: black;
+    font-size: 120%;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+
+}
+
+#leaderboard {
+            margin: 0 auto; /* Center the table horizontally */
+            text-align: center; /* Center the table content */
+        }
