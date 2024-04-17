@@ -53,13 +53,10 @@ function onSignIn(googleUser) {
 
         if (target.length <= 1) {
             document.getElementById("target").innerHTML = "You are eliminated or not playing";
+            document.getElementById("remaining_players").className = "leaderboardShow";
         }
         else {
-            //document.getElementById("target").innerHTML = "Your initial target is " + target;
-
-
-
-
+            document.getElementById("target").innerHTML = "Your initial target is " + target;
             document.getElementById("remaining_players").className = "leaderboardShow";
 
 
