@@ -55,7 +55,14 @@ function onSignIn(googleUser) {
             document.getElementById("target").innerHTML = "You are eliminated or not playing";
         }
         else {
-            document.getElementById("target").innerHTML = "Your initial target is " + target;
+            //document.getElementById("target").innerHTML = "Your initial target is " + target;
+
+
+
+
+            document.getElementById("remaining_players").className = "leaderboardShow";
+
+
         }
 
         document.getElementById("leaderboard").className = "leaderboardShow";
