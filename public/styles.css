@@ -63,3 +63,8 @@ h1, h2 {
             margin: 0 auto; /* Center the table horizontally */
             text-align: center; /* Center the table content */
         }
+
+#remaining_players td {
+    /* spacing and borders */
+    border: 1px solid black;
+}
